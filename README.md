@@ -1,24 +1,11 @@
-# be-familiar-with-vue
 
-## Project setup
-```
-npm install
-```
+This repository is a Vue.js practice repository to help me become more familiar with Vue.js, including basic concepts and best practices.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Libraries Used
 
-### Lints and fixes files
-```
-npm run lint
-```
+- **Vue.js**: The core JavaScript framework used for building the user interface.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Tailwind CSS**: A utility-first CSS framework for styling the project.
+
+- **Pretty-checkbox**: A library for creating customized checkboxes in Vue.js.
