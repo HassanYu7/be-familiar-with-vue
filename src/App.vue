@@ -1,26 +1,46 @@
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+<div>
+
+  
+  <ToDoForm></ToDoForm>
+  <DashboardForm></DashboardForm>  
+  
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ToDoForm from "./components/ToDoForm.vue";
+import DashboardForm from "./components/DashboardForm.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ToDoForm,
+    DashboardForm
+
+  },
+
+  data() {
+    return {
+      title: "",
+      assessments: [],
+    };
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'almarai', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 120px;
+}
+
+body {
+  background-color: #262f3f;
 }
 </style>
